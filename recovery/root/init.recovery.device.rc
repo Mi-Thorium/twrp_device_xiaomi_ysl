@@ -1,6 +1,6 @@
 # DT2W
 on init
-    write /proc/sys/dev/dt2w 1
+    write /sys/touchpanel/double_tap 1
 
 # Fstab
 on init
